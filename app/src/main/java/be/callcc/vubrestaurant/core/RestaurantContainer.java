@@ -1,4 +1,4 @@
-package be.tjs.vubrestaurant.core;
+package be.callcc.vubrestaurant.core;
 
 import android.util.Log;
 

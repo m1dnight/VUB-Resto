@@ -1,4 +1,4 @@
-package be.tjs.vubrestaurant;
+package be.callcc.vubrestaurant;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

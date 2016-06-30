@@ -1,4 +1,4 @@
-package be.tjs.vubrestaurant;
+package be.callcc.vubrestaurant;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -22,8 +22,8 @@ import org.joda.time.LocalDate;
 
 import java.util.Locale;
 
-import be.tjs.vubrestaurant.core.Constants;
-import be.tjs.vubrestaurant.core.RestaurantContainer;
+import be.callcc.vubrestaurant.core.Constants;
+import be.callcc.vubrestaurant.core.RestaurantContainer;
 
 
 public class MainActivity extends ActionBarActivity {

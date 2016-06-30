@@ -5,6 +5,8 @@ A beautiful and easy way to view the menu of the VUB restaurant (Vrije Universit
 
 Get it: [https://play.google.com/store/apps/details?id=be.tjs.vubrestaurant](https://play.google.com/store/apps/details?id=be.tjs.vubrestaurant)
 
+
+
 Details
 =======
 
@@ -18,6 +20,14 @@ TODO:
 
 * Persist the downloaded restaurant information
 * Add price information in the cards (e.g., like Google Now does it?)
+
+
+CHANGES
+========
+
+This repository is a fork of the original one by Tom Jaspers. The changes made are listed below.
+
+* Update server endpoint because previous one is offline.
 
 
 

@@ -1,4 +1,4 @@
-package be.tjs.vubrestaurant.core;
+package be.callcc.vubrestaurant.core;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -22,7 +22,7 @@ class RestaurantParser {
     @SuppressWarnings("unused")
     private static final String TAG = "TimetableParser";
 
-    private static final String BASE_URL = "http://178.62.199.83/vubresto/";
+    private static final String BASE_URL = "http://call-cc.be/files/vub-resto/";
 
     private static final OkHttpClient client = new OkHttpClient();
 
