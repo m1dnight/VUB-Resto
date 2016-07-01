@@ -1,14 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        VubResto {
+            keyAlias 'androidkey'
+            keyPassword 'sfknw99q'
+            storeFile file('/Users/m1dnight/.keystores/android-keys.jks')
+            storePassword 'sfknw99q'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 21
-        versionCode 9
-        versionName "1.4"
+        versionCode 10
+        versionName "1.4.1"
     }
     // workaround for "duplicate files during packaging of APK" issue
     // see https://groups.google.com/d/msg/adt-dev/bl5Rc4Szpzg/wC8cylTWuIEJ
@@ -20,9 +27,11 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix '.dev'
+            debuggable true
         }
         release {
             minifyEnabled true
+            signingConfig signingConfigs.VubResto
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -31,8 +40,8 @@ android {
 dependencies {
     compile 'com.squareup.okhttp:okhttp:2.0.0'
     compile 'com.google.code.gson:gson:2.3'
-    compile 'com.android.support:appcompat-v7:22.0.0'
-    compile "com.android.support:cardview-v7:21.0.0"
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.android.support:cardview-v7:21.0.0'
     compile 'joda-time:joda-time:2.3'
     compile files('libs/libGoogleAnalyticsV2.jar')
 }
