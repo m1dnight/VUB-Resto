@@ -17,7 +17,7 @@
 #}
 
 # Menu is only used via Gson so we should keep ProGuard on a leash
--keep class be.callcc.vubrestaurant.** { *; }
+-keep class dev.christophe.vubrestaurant.** { *; }
 
 # Jodatime
 -dontwarn org.joda.convert.**

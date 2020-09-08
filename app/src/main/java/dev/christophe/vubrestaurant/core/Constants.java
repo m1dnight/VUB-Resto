@@ -1,4 +1,4 @@
-package be.callcc.vubrestaurant.core;
+package dev.christophe.vubrestaurant.core;
 
 /**
  * Holds application-wide constants.

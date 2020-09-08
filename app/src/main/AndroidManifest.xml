@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="be.callcc.vubrestaurant">
+    package="dev.christophe.vubrestaurant">
 
     <!--<uses-sdk tools:node="replace" />-->
 
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         tools:ignore="UnusedAttribute">
         <activity
-            android:name="be.callcc.vubrestaurant.MainActivity"
+            android:name="dev.christophe.vubrestaurant.MainActivity"
             android:label="@string/app_name"
             android:configChanges="orientation"
             android:screenOrientation="portrait"

@@ -1,4 +1,4 @@
-package be.callcc.vubrestaurant;
+package dev.christophe.vubrestaurant;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,8 +13,8 @@ import org.joda.time.LocalDate;
 
 import java.util.List;
 
-import be.callcc.vubrestaurant.core.Menu;
-import be.callcc.vubrestaurant.core.RestaurantContainer;
+import dev.christophe.vubrestaurant.core.Menu;
+import dev.christophe.vubrestaurant.core.RestaurantContainer;
 
 class DayAdapter extends BaseAdapter {
     @SuppressWarnings("unused")

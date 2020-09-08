@@ -1,4 +1,4 @@
-package be.callcc.vubrestaurant;
+package dev.christophe.vubrestaurant;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import be.callcc.vubrestaurant.core.Constants;
+import dev.christophe.vubrestaurant.core.Constants;
 
 /**
  * The DropdownNavigationAdapter is used to allow the user to choose

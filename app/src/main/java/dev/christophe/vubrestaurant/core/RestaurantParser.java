@@ -1,4 +1,4 @@
-package be.callcc.vubrestaurant.core;
+package dev.christophe.vubrestaurant.core;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

@@ -1,4 +1,4 @@
-package be.callcc.vubrestaurant;
+package dev.christophe.vubrestaurant;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -24,8 +24,8 @@ import org.joda.time.LocalDate;
 
 import java.util.Locale;
 
-import be.callcc.vubrestaurant.core.Constants;
-import be.callcc.vubrestaurant.core.RestaurantContainer;
+import dev.christophe.vubrestaurant.core.Constants;
+import dev.christophe.vubrestaurant.core.RestaurantContainer;
 
 
 public class MainActivity extends AppCompatActivity {
