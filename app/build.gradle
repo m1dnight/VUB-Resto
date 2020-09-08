@@ -1,21 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        VubResto {
-            keyAlias 'androidkey'
-            keyPassword 'sfknw99q'
-            storeFile file('/Users/m1dnight/.keystores/android-keys.jks')
-            storePassword 'sfknw99q'
-        }
-    }
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 10
-        versionName "1.4.1"
+        versionName "1.4.2"
     }
     // workaround for "duplicate files during packaging of APK" issue
     // see https://groups.google.com/d/msg/adt-dev/bl5Rc4Szpzg/wC8cylTWuIEJ
@@ -31,7 +23,6 @@ android {
         }
         release {
             minifyEnabled true
-            signingConfig signingConfigs.VubResto
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
