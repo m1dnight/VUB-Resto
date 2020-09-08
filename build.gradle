@@ -2,22 +2,27 @@
 
 // Running 'gradle wrapper' will generate gradlew
 // Getting gradle wrapper working and using it will save you a lot of pain.
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.2.1'
-}
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '4.0.1'
+//}
 
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
         // Check http://tools.android.com/tech-docs/new-build-system for latest version
-        classpath 'com.android.tools.build:gradle:2.2.1'
+        classpath 'com.android.tools.build:gradle:4.0.1'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 }
